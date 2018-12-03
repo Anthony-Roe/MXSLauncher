@@ -16,7 +16,6 @@ namespace MxSimLauncher
         ServerInfo info = new ServerInfo();
         Server currentServer = new Server();
         HttpClient client = new HttpClient();
-        string count = "10";
         bool isLoading = false;
         public MainWindow()
         {

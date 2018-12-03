@@ -76,7 +76,7 @@ namespace MxSimLauncher {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/MxSimLauncher;component/serverinfo.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/MXSLauncher;component/serverinfo.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\ServerInfo.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);
